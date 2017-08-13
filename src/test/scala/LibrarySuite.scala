@@ -15,4 +15,10 @@ class LibrarySuite extends FunSuite {
     def library = new Library()
     assert(library.someLibraryMethod)
   }
+
+  test("osName get os") {
+    def library = new Library()
+    assert(library.os)
+  }
+
 }

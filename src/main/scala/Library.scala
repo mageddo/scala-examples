@@ -6,4 +6,7 @@
  */
 class Library {
   def someLibraryMethod(): Boolean = true
+//  def getOSName(): String {
+//
+//  }
 }
