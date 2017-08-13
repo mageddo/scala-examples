@@ -1,7 +1,7 @@
 package com.mageddo.ex002
 
-import java.text.DateFormat._
-import java.util.{Date, Locale}
+import java.text.DateFormat._ // import all static methods and variables of the class
+import java.util.{Date, Locale} // import multiple classes at one line
 
 object FrenchDate {
 	def main(args: Array[String]) {
